@@ -1,6 +1,6 @@
 package candle
 
-import "go-candle-patterns/types"
+import "github.com/devmsa-cl/go-candle-patterns/types"
 
 // IsBullishEngulfed check if the current candle is engulfed by the previous one
 // For a candle to be bullish engulfed, the following conditions must be met:

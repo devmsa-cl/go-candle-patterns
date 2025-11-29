@@ -1,8 +1,9 @@
 package candle
 
 import (
-	"go-candle-patterns/types"
 	"math"
+
+	"github.com/devmsa-cl/go-candle-patterns/types"
 )
 
 func IsBearishCandle(candle types.Candle) bool {
