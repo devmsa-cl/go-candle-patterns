@@ -1,8 +1,6 @@
 package candle
 
-import (
-	"go-candle-patterns/types"
-)
+import "github.com/devmsa-cl/go-candle-patterns/types"
 
 type HammerOptions struct {
 	BodySizeThreshold float64 `json:"bodySizeThreshold,omitempty" validate:"omitempty,gt=0"`
