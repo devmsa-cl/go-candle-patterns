@@ -6,6 +6,7 @@ import (
 	"github.com/devmsa-cl/go-candle-patterns/types"
 )
 
+// new comment
 func IsBearishCandle(candle types.Candle) bool {
 	return candle.Close < candle.Open
 }
